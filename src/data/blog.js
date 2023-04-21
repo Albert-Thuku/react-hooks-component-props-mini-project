@@ -1,8 +1,10 @@
-import logo from "../assets/logo.svg";
+import Logo from "../assets/Logo";
+import React from "react";
+
 
 const blogData = {
   name: "Underreacted",
-  image: logo,
+  image: <Logo />,
   about: "A blog about learning React",
   posts: [
     {
@@ -27,5 +29,6 @@ const blogData = {
     },
   ],
 };
+
 
 export default blogData;
